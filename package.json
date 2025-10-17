@@ -1,0 +1,31 @@
+{
+  "name": "gemini-bugfix-assistant",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "@octokit/rest": "^20.1.2",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nampham194205-cmd/Gemini-Bugfix-Bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nampham194205-cmd/Gemini-Bugfix-Bot/issues"
+  },
+  "homepage": "https://github.com/nampham194205-cmd/Gemini-Bugfix-Bot#readme"
+}
